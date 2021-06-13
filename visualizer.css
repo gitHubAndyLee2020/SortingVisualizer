@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	background:#7a8285;
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	background: #2c2f30;
+	position: absolute;
+	z-index: -1;
+}
+
+.button {
+	height: 50px;
+	width: 100px;
+	text-align: center;
+	float: left;
+	border: 0;
+	background: #2c2f30;
+	font-family: 'MinecraftiaRegular';
+	font-size: 14px;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.frame {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	padding: 25px;
+	border-radius: 25px;
+	border: 5px solid #2c2f30;
+	margin: 0;
+}
+
+.bars div {
+	float: left;
+}
+
+#slide {
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+.control-btn {
+	float: right;
+	height: 30px;
+	width: 80px;
+	margin-right: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+	border: 0;
+	font-family: 'MinecraftiaRegular';
+	padding: 3px;
+	border-radius: 3px;
+	background: #16dfd1;
+}
+
+.control-btn:hover {
+	background: #37df16;
+}
+
+.instruction {
+	float: right;
+	font-family: 'MinecraftiaRegular';
+	color: white;
+	margin-right: 25px;
+	margin-top: 15px;
+	font-size: 12px;
+}
